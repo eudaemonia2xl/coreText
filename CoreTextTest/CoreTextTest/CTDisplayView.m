@@ -26,7 +26,7 @@ static NSString *kImagePattern = @"\\[[a-zA-Z0-9\\u4e00-\\u9fa5]+\\]";
 {
     [super awakeFromNib];
     
-    _attStr = [[NSMutableAttributedString alloc] initWithString:@"今天很开心[开心][开心]"];
+    _attStr = [[NSMutableAttributedString alloc] initWithString:@"今天很开心[开心][2B]"];
     
 //    通过字符串，使用正则表达式找出字符串中的符合表情的文字
     _ary = [self imageArrayWithAttributedString:_attStr];
